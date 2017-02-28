@@ -6,20 +6,29 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "eslint": "^2.0.0-rc.1",
+    "lodash": "^4.15.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-modal": "^1.4.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.7.0",
+    "redux": "^3.5.2",
+    "webpack": "^1.13.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kpam92/ruddit.git"
+  "devDependencies": {
+    "eslint": "^2.13.1"
+  },
+  "scripts": {
+    "heroku-postbuild": "webpack --config webpack.config.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kpam92/ruddit/issues"
-  },
-  "homepage": "https://github.com/kpam92/ruddit#readme"
+  "license": "ISC"
 }
