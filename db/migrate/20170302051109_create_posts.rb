@@ -5,8 +5,10 @@ class CreatePosts < ActiveRecord::Migration[5.0]
       t.text :body
       t.string :image_url
       t.integer :author_id, null: false
+      t.integer :vote, null: false
 
       t.timestamps
     end
+      add_index :posts, :author_id
   end
 end
