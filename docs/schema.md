@@ -16,7 +16,6 @@ id          | integer   | not null, primary key
 title       | string    | not null
 body        | text      | not null
 author_id   | integer   | not null, foreign key (references users), indexed
-album_id    | integer   | not null, foreign key (references album), indexed
 vote        | integer   | not null
 
 ## comments
