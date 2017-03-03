@@ -9,7 +9,17 @@ email           | string    | not null, indexed, unique
 password_digest | string    | not null
 session_token   | string    | not null, indexed, unique
 
-## posts
+## link_posts
+column name | data type | details
+------------|-----------|-----------------------
+id          | integer   | not null, primary key
+title       | string    | not null
+body        | text      | not null
+image_url   | string    | not null
+author_id   | integer   | not null, foreign key (references users), indexed
+vote        | integer   | not null
+
+## text_posts
 column name | data type | details
 ------------|-----------|-----------------------
 id          | integer   | not null, primary key
