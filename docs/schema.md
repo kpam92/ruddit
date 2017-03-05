@@ -36,16 +36,3 @@ author_id   | integer   | not null, foreign key (references users), indexed
 body        | string    | not null
 post_id     | integer   | not null, foreign key (references post), indexed
 comment_id  | integer   | foreign key (references comment), indexed
-
-## tags
-column name | data type | details
-------------|-----------|-----------------------
-id          | integer   | not null, primary key
-name        | string    | not null
-
-## taggings
-column name | data type | details
-------------|-----------|-----------------------
-id          | integer   | not null, primary key
-note_id     | integer   | not null, foreign key (references photos), indexed, unique [tag_id]
-tag_id      | integer   | not null, foreign key (references tags), indexed
