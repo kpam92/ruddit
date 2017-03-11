@@ -12,4 +12,9 @@ class User < ApplicationRecord
     return nil unless user && user.valid_password?(password)
     user
   end
+
+  def password=(password)
+    @password = password
+    self.password_digest = BCrypt::Password.create(password)
+  end
 end
