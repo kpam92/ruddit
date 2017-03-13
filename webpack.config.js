@@ -1,5 +1,5 @@
 module.exports = {
-  entry: "./frontend/open_wall.jsx",
+  entry: "./frontend/ruddit.jsx",
   output: {
     path: "app/assets/javascripts",
     filename: "bundle.js",
