@@ -11,9 +11,7 @@ export const RootReducer = combineReducers({
   session: SessionReducer,
   photos: PhotoReducer,
   user: UserReducer,
-  albums: AlbumReducer,
-  comments: CommentReducer,
-  search_results: SearchReducer
+
 });
 
 export default RootReducer;
