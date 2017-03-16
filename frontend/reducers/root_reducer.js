@@ -9,8 +9,7 @@ import UserReducer from './user_reducer';
 
 export const RootReducer = combineReducers({
   session: SessionReducer,
-  photos: PhotoReducer,
-  user: UserReducer,
+  user: UserReducer
 
 });
 
