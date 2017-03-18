@@ -18,3 +18,7 @@ export const receiveSingleUser = user => ({
   type: UserConstants.RECEIVE_SINGLE_USER,
   user
 });
+export const goToProfile = id => ({
+  type: UserConstants.GO_TO_PROFILE,
+  id
+});
