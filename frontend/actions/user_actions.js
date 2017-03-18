@@ -9,3 +9,12 @@ export const UserConstants = {
 export const fetchAllUsers = () => ({
   type: UserConstants.FETCH_ALL_USERS
 });
+
+export const receiveAllUsers = users => ({
+  type: UserConstants.RECEIVE_ALL_USERS,
+  users
+});
+export const receiveSingleUser = user => ({
+  type: UserConstants.RECEIVE_SINGLE_USER,
+  user
+});
