@@ -22,3 +22,8 @@ export const goToProfile = id => ({
   type: UserConstants.GO_TO_PROFILE,
   id
 });
+
+export const receiveErrors = errors => ({
+  type: UserConstants.RECEIVE_ERRORS,
+  errors
+});
