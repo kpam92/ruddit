@@ -10,6 +10,14 @@ export const login = function(user, success, error) {
 	});
 };
 
-
+export const signup = (user, success, error) => {
+	$.ajax({
+		method: 'POST',
+		url: 'api/user',
+		data: user,
+		success,
+		error
+	});
+};
 
 };
