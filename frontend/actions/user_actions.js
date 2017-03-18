@@ -5,3 +5,7 @@ export const UserConstants = {
   RECEIVE_SINGLE_USER: "RECEIVE_SINGLE_USER",
   GO_TO_PROFILE: "GO_TO_PROFILE"
 };
+
+export const fetchAllUsers = () => ({
+  type: UserConstants.FETCH_ALL_USERS
+});
