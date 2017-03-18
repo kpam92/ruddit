@@ -9,5 +9,11 @@ export const fetchAllUsers = function(success, error) {
 	});
 };
 
-
+export const fetchSingleUser = function(id, success, error) {
+	$.ajax({
+		method: 'GET',
+		url: `api/users/${id}`,
+		success,
+		error
+	});
 };
