@@ -9,8 +9,7 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => ({
   logout: () => dispatch(logout()),
-  goToProfile: (id) => dispatch(goToProfile(id)),
-  receiveNewSearchResults: (data) => dispatch(receiveNewSearchResults(data))
+  goToProfile: (id) => dispatch(goToProfile(id))
 });
 
 export default connect(
