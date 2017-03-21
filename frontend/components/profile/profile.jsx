@@ -1,5 +1,5 @@
 import React from 'react';
-import AlbumIndexContainer from '../album/album_index_container';
+// import AlbumIndexContainer from '../album/album_index_container';
 // import AlbumFormContainer from '../album/album_form_container';
 import Modal from 'react-modal';
 import ModalStyle from './modal_style'
