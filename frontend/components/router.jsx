@@ -8,7 +8,7 @@ import HomeContainer from './home/home_container';
 import ProfileContainer from './profile/profile_container';
 import AlbumDetailContainer from './album/album_detail_container';
 import PhotoFormContainer from './photo/photo_form_container';
-import AlbumFormContainer from './album/album_form_container';
+// import AlbumFormContainer from './album/album_form_container';
 import SearchContainer from './search/search_container';
 
 import { fetchAllPhotos } from '../actions/photo_actions';
