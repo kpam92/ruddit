@@ -7,7 +7,7 @@ import SessionFormContainer from './session_form/session_form_container';
 import HomeContainer from './home/home_container';
 import ProfileContainer from './profile/profile_container';
 import AlbumDetailContainer from './album/album_detail_container';
-import PhotoFormContainer from './photo/photo_form_container';
+// import PhotoFormContainer from './photo/photo_form_container';
 // import AlbumFormContainer from './album/album_form_container';
 import SearchContainer from './search/search_container';
 
