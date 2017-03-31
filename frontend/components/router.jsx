@@ -12,7 +12,7 @@ import ProfileContainer from './profile/profile_container';
 import SearchContainer from './search/search_container';
 
 // import { fetchAllPhotos } from '../actions/photo_actions';
-import { fetchAllUsers } from '../actions/user_actions';
+// import { fetchAllUsers } from '../actions/user_actions';
 import { fetchAllAlbums } from '../actions/album_actions';
 import { fetchAllComments } from '../actions/comment_actions';
 
