@@ -1,2 +1,0 @@
-class TextPost < ApplicationRecord
-end
